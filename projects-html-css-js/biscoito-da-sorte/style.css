@@ -1,0 +1,113 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root
+  {
+   font-size: 62.5%; 
+  }
+
+.hide
+{
+  display: none;
+}
+
+body
+  {
+    background: linear-gradient(287.56deg, #190361 0%, #BB00FF 100%);
+    display: flex;
+    justify-content: center;
+    padding: 23.9rem;
+  }
+
+/*screen1*/
+.main1
+{
+  width: 42.8rem;
+  height: 42.4rem;
+  border-radius: .5rem;
+  background: #ffffff;
+  padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+  box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.452);
+}
+
+.main1 h1
+{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 1.4rem;
+  color: #34355B;
+}
+
+p
+{
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: #34355B;
+  margin-bottom: 5.0rem;
+}
+
+.cookie
+{
+  border: none;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+/*screen2*/
+.main2
+{
+  width: 42.8rem;
+  height: 56.4rem;
+  border-radius: .5rem;
+  background: #ffffff;
+  padding: 4.8rem 6.4rem 4.8rem 6.4rem;
+  box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.452);
+}
+
+.main2 h1
+{
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.4rem;
+  text-align: center;
+  margin-bottom: 1.7rem;
+  color: #34355B;
+}
+
+.sorte
+{
+  width: 29.3rem;
+  height: 10.7rem;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.4rem;
+  text-align: center;
+  color: black;
+  background: #E4EDF1;
+  margin-bottom: 6.13rem;
+}
+
+.button
+{
+  display: flex;
+  justify-content: center;
+}
+
+.new
+{
+  width: 17.4rem;
+  height: 5.2rem;
+  border-radius: .4rem;
+  border: none;
+  background: #FF9500;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-top: 4rem;
+  cursor: pointer;
+}
+

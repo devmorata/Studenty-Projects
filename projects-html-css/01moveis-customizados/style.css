@@ -1,0 +1,73 @@
+body 
+  {
+    font-family:"Open Sans", sans-serif; /**fonte do texto*/
+    font-optical-sizing:auto;
+    font-weight:weight; /**texto em negrito*/
+    font-style:normal;
+    font-variation-settings:"width" 100;
+    text-align: center; /**alinhar texto ao centro*/
+    margin: 0;
+  }font-family: "Open Sans";
+
+#hero /**id da div*/
+  {
+    width: 592px; /**limitação da largura da div*/
+    margin: 0 auto 72px; /**alinhamento da margem (1º ao topo, 2° margem direita, 3º em baixo, 4°margem esquerda), no caso as 
+Se você ainda não tem um destino definido, confira nossa seção de ofertas.
+
+
+
+Destinos Ofertas Contatomargens laterais estão com alinhamento automático*/
+  }
+
+#hero img
+  {
+    margin-bottom: 72px; /**posiçao da imagem, no caso distância inferior (para o proximo elemento)*/font-family: "Open Sans";
+  }
+
+h1
+  {
+    font-family:"Inter", sans-serif;
+    font-optical-sizing:auto;
+    font-weight:normal; /**texto normal, sem negrito*/
+    font-style:normal;
+    font-variation-settings:"slnt" 0;
+    margin-bottom: 32px;
+  }
+
+h1 span
+  {
+    font-weight:bold;
+  }
+
+span, a
+  {
+    color: #FF9900;position: center fixed;
+  }
+
+p, #footer
+  {
+    color: #7D7987;
+    font-size: 14px; /**tamanho do texto*/
+    line-height: 28px; /**altura da linha*/
+  }
+
+#footer a + a /**a + a serve para se referenciar ao "a" que vem após outro "a" na div (pode ser mais de um)*/
+  {
+    margin-left: 28px;
+  }
+
+#line
+  {
+    width: 568px;
+    height: 0px;
+    border: 1px #ECEFF2 solid; /**linha ou borda (tamanho, cor e estilo)*/
+    margin: 0 auto 8px;
+  }
+
+#balls-decoration
+  {
+    position: fixed; /**posicionamento sobre posto aos outros elementos da página*/
+    bottom: 0px;
+    right: 0px;
+  }
